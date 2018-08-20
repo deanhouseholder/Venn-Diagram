@@ -10,7 +10,7 @@
 	border-radius: 15px;
 	font-size: 11pt;
 	font-family: arial;
-	padding: 10px 0 13px 50px;
+	padding: 10px 15px 13px 15px;
 	position: absolute;
 	margin: 0;
 }
@@ -21,7 +21,6 @@
 
 .venn_modal li {
 	position: relative;
-	left: -20px;
 }
 
 .funny {

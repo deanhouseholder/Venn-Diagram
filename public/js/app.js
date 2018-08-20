@@ -14,11 +14,11 @@ jQuery(function ($) {
             var ppDivWidth = ppWidth - ppX2;
             var ppXPos = ppX2;
         } else { // Menu opens to the Left
-            if (ppX1 > (ppModalMax)) { // Wide format
+            if (ppX1 > ppModalMax) { // Wide format
                 var ppDivWidth = ppModalMax;
                 var ppXPos = ppX1 - ppDivWidth - ppBuffer;
             } else { // Narrow format
-                var ppDivWidth = ppX1 - ppBuffer - ppMargin;
+                var ppDivWidth = ppX1 - ppMargin;
                 var ppXPos = ppMargin;
             }
         }

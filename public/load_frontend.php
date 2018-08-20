@@ -3,7 +3,7 @@ define('PP_DIR_PUBLIC', PP_DIR_BASE . 'public/');
 define('PP_DIR_PUBLIC_URL', PP_DIR_URL . 'public/');
 
 function pp_check_url() {
-    if (strpos($_SERVER['REQUEST_URI'], '/skills-venn-diagram/') !== false) {
+    if (strpos($_SERVER['REQUEST_URI'], '/') !== false) {
         wp_enqueue_script('jquery');
         wp_enqueue_script('pp-main-script', PP_DIR_PUBLIC_URL . 'js/app.js');
         wp_enqueue_script('pp-image-map-script', PP_DIR_PUBLIC_URL . 'js/image-map-1.0.8/image-map.min.js');
