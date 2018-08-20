@@ -1,0 +1,39 @@
+#SkillsVennDiagramDiv img {
+	width: 100%;
+	max-width: 1500px;
+}
+
+.venn_modal {
+	display: none;
+	background-color: white;
+	border: outset 5px #464646;
+	border-radius: 15px;
+	font-size: 11pt;
+	font-family: arial;
+	padding: 10px 0 13px 50px;
+	position: absolute;
+	margin: 0;
+}
+
+.venn_modal h2 {
+	margin-top: 0;
+}
+
+.venn_modal li {
+	position: relative;
+	left: -20px;
+}
+
+.funny {
+	color: #0B3954;
+	background-color: white;
+	font-size: 14pt;
+	font-family: "Comic Sans MS";
+	position: absolute;
+	margin: 0;
+}
+
+#WildGoatMilking {
+	padding-top: 15px !important;
+	width: 320px !important;
+}
