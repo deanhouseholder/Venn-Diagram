@@ -13,6 +13,7 @@
 	padding: 10px 15px 13px 15px;
 	position: absolute;
 	margin: 0;
+	z-index: 999;
 }
 
 .venn_modal h2 {
@@ -35,4 +36,11 @@
 #WildGoatMilking {
 	padding-top: 15px !important;
 	width: 320px !important;
+	margin-left: 50px;
+}
+
+#PatriceAtTheUN {
+	padding-top: 15px !important;
+	width: 500px !important;
+	margin-left: 50px;
 }
